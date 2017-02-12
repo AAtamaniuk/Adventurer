@@ -14,9 +14,71 @@ body {
   font-size: 16px;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
 
 
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.btn--main {
+  width: 147px;
+  height: 50px;
+  padding: 0 10px;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: $tomato;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: white;
+  border-radius: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  transition: 0.3s;
+  border: 2px solid transparent;
+
+  &:hover {
+    background-color: white;
+    color: $tomato;
+    border: 2px solid $tomato;
+  }
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: $charcoal-grey;
+  text-transform: uppercase;
+}
+
+.section-subtitle {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.67;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: $slate-grey;
+}
+
+.section-title--inverted {
+  color: white;
+}
 
 
 

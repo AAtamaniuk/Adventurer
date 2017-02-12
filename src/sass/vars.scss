@@ -1,14 +1,13 @@
 // Colors
 
-$main-color:                hsl(101, 46%, 51%);
-$link-color:                hsl(138, 66%, 46%);
-$link-hover-color:          hsl(138, 66%, 29%);
-$away-color:                hsl(0, 0%, 18%);
-$info-color:                hsl(193, 47%, 55%);
-$info-color--hover:         hsl(193, 37%, 40%);
-$warning-color:             hsl(47, 99%, 47%);
-$warning-color--hover:      hsl(42, 89%, 39%);
-$subtitle-border-color:     hsl(48, 100%, 51%);
+
+$tomato: hsl(0, 81%, 60%);
+
+$charcoal-grey: hsl(213, 8%, 27%);
+$slate-grey: hsl(209, 11%, 41%);
+$pinkish-grey: hsl(0, 0%, 75%);
+$text-black: hsl(0, 0%, 20%);
+
 
 //Fonts
 
@@ -29,3 +28,4 @@ $laptop-min:   992px;
 $laptop-max:  1199px;
 $desktop-min: 1200px;
 
+$header-height: 81px;

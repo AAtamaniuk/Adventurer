@@ -1,0 +1,48 @@
+@import "../vars.scss";
+@import "../mixins.scss";
+
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+  transition: 0.3s;
+}
+
+.nav__list {
+  margin-bottom: 0;
+}
+
+.nav__item {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 15px;
+}
+
+.nav__link {
+  font-family: $main-font;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  //line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: $charcoal-grey;
+  text-transform: uppercase;
+  line-height: $header-height;
+  &:hover {
+    color: $tomato;
+    text-decoration: none;
+  }
+  &:active,
+  &:focus {
+    color: $charcoal-grey;
+    opacity: 0.7;
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+.nav__link--active {
+  color: $tomato;
+  cursor: default;
+}
