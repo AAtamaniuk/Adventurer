@@ -17,6 +17,7 @@ var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
 var rigger = require('gulp-rigger');
 var notify = require("gulp-notify");
+var csscomb = require('gulp-csscomb');
 var reload = server.reload;
 
 var browsers = [
@@ -162,4 +163,8 @@ gulp.task("symbols", function() {
     .pipe(gulp.dest("src/img"));
 });
 
-
+gulp.task('csscomb:dev', function() {
+  return gulp.src("src/sass/**/*.scss")
+    .pipe(csscomb())
+    .pipe(gulp.dest("src/sass/"));
+});

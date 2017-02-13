@@ -7,22 +7,27 @@
 }
 
 .accordion__header {
-  max-width: 100%;
   overflow: hidden;
-  text-overflow: ellipsis;
-  background-color: $charcoal-grey;
+
+  max-width: 100%;
+  padding: 17px;
+
   font-family: $intro-font;
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
+
   letter-spacing: -0.8px;
+  text-overflow: ellipsis;
+
   color: white;
-  padding: 17px;
+  background-color: $charcoal-grey;
 }
 
 .accordion__panel {
   padding: 34px 63px 37px 23px;
+
   border: 1px solid hsla(0, 0%, 54%, 0.5);
 }
 
@@ -32,7 +37,9 @@
   font-style: normal;
   font-stretch: condensed;
   line-height: 1.43;
-  letter-spacing: normal;
+
   text-align: left;
+  letter-spacing: normal;
+
   color: $text-black;
 }

@@ -3,8 +3,9 @@
 
 .nav {
   display: inline-block;
-  vertical-align: middle;
+
   transition: 0.3s;
+  vertical-align: middle;
 }
 
 .nav__list {
@@ -13,8 +14,10 @@
 
 .nav__item {
   display: inline-block;
-  vertical-align: bottom;
+
   margin-right: 15px;
+
+  vertical-align: bottom;
 }
 
 .nav__link {
@@ -23,26 +26,31 @@
   font-weight: bold;
   font-style: normal;
   font-stretch: condensed;
+  line-height: $header-height;
+
+  text-align: center;
   //line-height: normal;
   letter-spacing: 0.1px;
-  text-align: center;
-  color: $charcoal-grey;
   text-transform: uppercase;
-  line-height: $header-height;
+
+  color: $charcoal-grey;
   &:hover {
-    color: $tomato;
     text-decoration: none;
+
+    color: $tomato;
   }
   &:active,
   &:focus {
-    color: $charcoal-grey;
-    opacity: 0.7;
     text-decoration: none;
+
+    opacity: 0.7;
+    color: $charcoal-grey;
     outline: none;
   }
 }
 
 .nav__link--active {
-  color: $tomato;
   cursor: default;
+
+  color: $tomato;
 }

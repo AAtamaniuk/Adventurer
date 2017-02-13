@@ -5,7 +5,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -15,8 +17,9 @@ body {
 }
 
 ul {
-  list-style: none;
   padding-left: 0;
+
+  list-style: none;
 }
 
 
@@ -24,30 +27,34 @@ ul {
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .btn--main {
+  overflow: hidden;
+
   width: 147px;
   height: 50px;
   padding: 0 10px;
-  vertical-align: middle;
-  line-height: 50px;
-  background-color: $tomato;
+
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
   font-stretch: condensed;
-  letter-spacing: 0.2px;
-  text-align: center;
-  color: white;
-  border-radius: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-transform: uppercase;
+  line-height: 50px;
+
   transition: 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+
+  color: white;
   border: 2px solid transparent;
+  border-radius: 0;
+  background-color: $tomato;
 
   &:hover {
-    background-color: white;
     color: $tomato;
     border: 2px solid $tomato;
+    background-color: white;
   }
 }
 
@@ -57,28 +64,30 @@ ul {
   font-style: normal;
   font-stretch: condensed;
   line-height: normal;
-  letter-spacing: 0.4px;
+
   text-align: center;
-  color: $charcoal-grey;
+  letter-spacing: 0.4px;
   text-transform: uppercase;
+
+  color: $charcoal-grey;
 }
 
 .section-subtitle {
-  margin: 0 auto;
   max-width: 800px;
+  margin: 0 auto;
+
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
   font-stretch: condensed;
   line-height: 1.67;
-  letter-spacing: 0.2px;
+
   text-align: center;
+  letter-spacing: 0.2px;
+
   color: $slate-grey;
 }
 
 .section-title--inverted {
   color: white;
 }
-
-
-

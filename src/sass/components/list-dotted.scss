@@ -3,21 +3,26 @@
 
 .list-dotted {
   margin-top: 25px; //remove
-  list-style: none;
   padding-left: 20px;
+
+  list-style: none;
 }
 
 .list-dotted__item {
   position: relative;
+
   margin-bottom: 30px;
   &::before {
     $size: 8px;
+
+    content: "";
     position: absolute;
-    content: '';
     top: 5px;
     left: -20px;
-    height: $size;
+
     width: $size;
+    height: $size;
+
     border-radius: 50%;
     background-color: $link-color;
   }
