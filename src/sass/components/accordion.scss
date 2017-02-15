@@ -19,6 +19,7 @@
   font-style: normal;
   font-stretch: normal;
 
+  transition: 0.3s;
   letter-spacing: -0.8px;
   text-overflow: ellipsis;
 
@@ -28,8 +29,6 @@
     background-color: $tomato;
   }
 }
-
-
 
 .accordion__panel {
   padding: 34px 63px 37px 23px;
