@@ -12,6 +12,7 @@
   max-width: 100%;
   padding: 17px;
 
+  color: white;
   font-family: $intro-font;
   font-size: 16px;
   font-weight: 600;
@@ -21,9 +22,14 @@
   letter-spacing: -0.8px;
   text-overflow: ellipsis;
 
-  color: white;
   background-color: $charcoal-grey;
+
+  &:hover {
+    background-color: $tomato;
+  }
 }
+
+
 
 .accordion__panel {
   padding: 34px 63px 37px 23px;
@@ -32,6 +38,7 @@
 }
 
 .accordion__panel p {
+  color: $text-black;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -40,6 +47,4 @@
 
   text-align: left;
   letter-spacing: normal;
-
-  color: $text-black;
 }

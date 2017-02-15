@@ -1,0 +1,36 @@
+@import "../vars.scss";
+@import "../mixins.scss";
+
+.progress {
+  $height: 31px;
+
+  overflow: hidden;
+
+  height: $height;
+  margin-bottom: 0;
+
+  border: solid 1px hsla(0, 0%, 54%, 0.34);
+  border-radius: 0;
+  background-color: hsl(0, 0%, 95%);
+  box-shadow: none;
+
+  .progress__line {
+    height: $height;
+  }
+
+  .progress__label {
+    width: 40%;
+    padding-left: 18px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+    line-height: $height;
+
+    letter-spacing: normal;
+
+    background-color: $tomato;
+  }
+}

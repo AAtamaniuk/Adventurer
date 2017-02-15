@@ -21,6 +21,7 @@
 }
 
 .nav__link {
+  color: $charcoal-grey;
   font-family: $main-font;
   font-size: 14px;
   font-weight: bold;
@@ -29,28 +30,26 @@
   line-height: $header-height;
 
   text-align: center;
-  //line-height: normal;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-
-  color: $charcoal-grey;
   &:hover {
-    text-decoration: none;
-
     color: $tomato;
+
+    text-decoration: none;
   }
   &:active,
   &:focus {
+    color: $charcoal-grey;
+
     text-decoration: none;
 
     opacity: 0.7;
-    color: $charcoal-grey;
     outline: none;
   }
 }
 
 .nav__link--active {
-  cursor: default;
-
   color: $tomato;
+
+  cursor: default;
 }

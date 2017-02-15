@@ -11,6 +11,7 @@
   margin-top: 267px;
   margin-bottom: 33px;
 
+  color: white;
   font-family: $intro-font;
   font-size: 90px;
   font-weight: 800;
@@ -20,13 +21,12 @@
 
   letter-spacing: 12.6px;
   text-transform: uppercase;
-
-  color: white;
 }
 
 .intro__subtitle {
   margin-bottom: 86px;
 
+  color: white;
   font-family: $intro-font;
   font-size: 14px;
   font-weight: 600;
@@ -36,6 +36,4 @@
 
   letter-spacing: 6.4px;
   text-transform: uppercase;
-
-  color: white;
 }

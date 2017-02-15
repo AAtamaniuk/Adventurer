@@ -33,6 +33,7 @@ ul {
   height: 50px;
   padding: 0 10px;
 
+  color: white;
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -46,19 +47,20 @@ ul {
   text-transform: uppercase;
   text-overflow: ellipsis;
 
-  color: white;
   border: 2px solid transparent;
   border-radius: 0;
   background-color: $tomato;
 
   &:hover {
     color: $tomato;
+
     border: 2px solid $tomato;
     background-color: white;
   }
 }
 
 .section-title {
+  color: $charcoal-grey;
   font-size: 40px;
   font-weight: bold;
   font-style: normal;
@@ -68,14 +70,13 @@ ul {
   text-align: center;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-
-  color: $charcoal-grey;
 }
 
 .section-subtitle {
   max-width: 800px;
   margin: 0 auto;
 
+  color: $slate-grey;
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
@@ -84,8 +85,6 @@ ul {
 
   text-align: center;
   letter-spacing: 0.2px;
-
-  color: $slate-grey;
 }
 
 .section-title--inverted {

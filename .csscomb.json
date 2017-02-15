@@ -27,7 +27,8 @@
     [
       "$variable"
     ],
-    [ "content",
+    [
+      "content",
       "position",
       "z-index",
       "top",
@@ -65,14 +66,14 @@
       "max-height",
       "margin",
       "margin-top",
-      "margin-right",
       "margin-bottom",
       "margin-left",
+      "margin-right",
       "padding",
       "padding-top",
-      "padding-right",
       "padding-bottom",
-      "padding-left"
+      "padding-left",
+      "padding-right"
     ],
     [
       "table-layout",
@@ -86,6 +87,7 @@
       "list-style-image"
     ],
     [
+      "color",
       "font",
       "font-family",
       "font-size",
@@ -233,7 +235,6 @@
       "filter:progid:DXImageTransform.Microsoft.Alpha(Opacity",
       "-ms-filter:\\'progid:DXImageTransform.Microsoft.Alpha",
       "-ms-interpolation-mode",
-      "color",
       "border",
       "border-width",
       "border-style",

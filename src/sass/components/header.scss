@@ -6,6 +6,7 @@
 }
 
 .logo {
+  color: $tomato;
   font-family: $logo-font;
   font-size: 25px;
   font-weight: bold;
@@ -14,6 +15,4 @@
   line-height: $header-height;
 
   text-align: right;
-
-  color: $tomato;
 }
