@@ -1,0 +1,74 @@
+@import "../vars.scss";
+@import "../mixins.scss";
+
+.service__title {
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
+
+.service-card {
+  display: block;
+
+  width: 330px;
+  height: 460px;
+  margin: 0 auto;
+  padding: 25px;
+
+  transition: 0.3s;
+  text-align: center;
+
+  border: solid 1px hsl(0, 0%, 86%);
+  border-radius: 10px;
+  background-color: white;
+
+  &:hover {
+    background-color: $charcoal-grey;
+    .service-card__img,
+    .service-card__title,
+    .service-card__text {
+      color: white;
+    }
+  }
+}
+
+.service-card__img {
+  $size: 77px;
+
+  display: inline-block;
+
+  width: $size;
+  height: $size;
+  margin-top: 15px;
+  margin-bottom: 75px;
+
+  background-color: $tomato;
+}
+
+.service-card__title {
+  margin-bottom: 22px;
+
+  color: $charcoal-grey;
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+
+  text-align: left;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.service-card__text {
+  margin-bottom: 45px;
+
+  color: $slate-grey;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.39;
+
+  text-align: left;
+  letter-spacing: 0.2px;
+}
