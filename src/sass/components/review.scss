@@ -1,0 +1,76 @@
+@import "../vars.scss";
+@import "../mixins.scss";
+
+.review__title {
+  margin-top: 95px;
+  margin-bottom: 60px;
+}
+
+.review-card {
+  margin-bottom: 65px;
+
+  font-size: 0;
+}
+
+.review-card__img-wrap {
+  display: inline-block;
+
+  width: 120px;
+  height: 120px;
+
+  vertical-align: top;
+
+  border-radius: 50%;
+  background-color: $charcoal-grey;
+}
+
+.review-card__info {
+  display: inline-block;
+
+  padding-left: 40px;
+
+  vertical-align: top;
+}
+
+.review-card__title {
+  margin-bottom: 13px;
+
+  color: $charcoal-grey;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+
+  text-align: left;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.review-card__subtitle {
+  margin-bottom: 35px;
+
+  color: $tomato;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+
+  text-align: left;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+
+.review-card__text {
+  color: $slate-grey;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.39;
+
+  text-align: left;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
