@@ -1,0 +1,62 @@
+@import "../vars.scss";
+@import "../mixins.scss";
+
+.offer__title {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.offer-card {
+  margin-bottom: 64px;
+
+  font-size: 0;
+}
+
+.offer-card__img-wrap {
+  $size: 80px;
+
+  display: inline-block;
+
+  width: $size;
+  height: $size;
+
+  vertical-align: top;
+
+  background-color: $tomato;
+}
+
+.offer-card__info {
+  display: inline-block;
+
+  width: calc(100% - 113px);
+  margin-left: 33px;
+
+  vertical-align: top;
+}
+
+.offer-card__title {
+  margin-bottom: 28px;
+
+  color: $charcoal-grey;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: normal;
+
+  text-align: left;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.offer-card__text {
+  color: $slate-grey;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.39;
+
+  text-align: left;
+  letter-spacing: 0.2px;
+}

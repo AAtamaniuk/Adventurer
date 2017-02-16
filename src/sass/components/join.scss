@@ -4,6 +4,7 @@
 .join {
   width: 100%;
   height: 515px;
+  margin-top: 100px;
 
   background-color: $charcoal-grey;
 }
@@ -23,4 +24,18 @@
 
 .join__title {
   margin-bottom: 63px;
+}
+
+.join__text {
+  margin-bottom: 33px;
+
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.67;
+
+  text-align: center;
+  letter-spacing: 0.2px;
 }
