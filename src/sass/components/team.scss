@@ -1,0 +1,70 @@
+@import "../vars.scss";
+@import "../mixins.scss";
+
+.team__title {
+  margin-top: 100px;
+  margin-bottom: 63px;
+}
+
+.team__subtitle {
+  max-width: 692px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+
+  color: $slate-grey;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.78;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+.team-card {
+  position: relative;
+
+  width: 268px;
+  height: 300px;
+  margin: 0 auto;
+
+  background-color: $charcoal-grey;
+}
+
+.team-card__about {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  height: 100px;
+
+  background-color: $tomato;
+}
+
+.team-card__name {
+  margin-top: 12px;
+
+  color: white;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.team-card__profession {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.67;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+}
