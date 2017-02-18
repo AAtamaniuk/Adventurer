@@ -482,50 +482,114 @@ ul {
   margin-bottom: 63px; }
 
 .team__subtitle {
-  max-width: 692px;
   margin: 0 auto;
-  font-size: 18px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: condensed;
-  line-height: 1.78;
-  letter-spacing: 0.2px;
-  text-align: center;
-  color: #5d6974;
   margin-bottom: 53px; }
 
 .team-card {
-  background-color: #3f444a;
+  position: relative;
   width: 268px;
   height: 300px;
-  position: relative;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background-color: #3f444a; }
 
 .team-card__about {
   position: absolute;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
   height: 100px;
   background-color: #ec4646; }
 
 .team-card__name {
   margin-top: 12px;
+  color: white;
   font-size: 25px;
   font-weight: normal;
   font-style: normal;
   font-stretch: condensed;
   line-height: 1.2;
-  letter-spacing: 0.3px;
   text-align: center;
-  color: white; }
+  letter-spacing: 0.3px; }
 
 .team-card__profession {
+  color: white;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: condensed;
   line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.2px; }
+
+.portfolio__title {
+  margin-top: 100px;
+  margin-bottom: 55px; }
+
+.portfolio__subtitle {
+  margin-bottom: 70px; }
+
+.portfolio-nav {
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+  vertical-align: middle; }
+
+.portfolio-nav__list {
+  margin-bottom: 0; }
+
+.portfolio-nav__item {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: bottom; }
+
+.portfolio-nav__link {
+  color: #3f444a;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+  transition: 0.3s;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase; }
+  .portfolio-nav__link:hover {
+    color: #ec4646;
+    text-decoration: none; }
+  .portfolio-nav__link:active, .portfolio-nav__link:focus {
+    color: #3f444a;
+    text-decoration: none;
+    opacity: 0.7;
+    outline: none; }
+
+.portfolio-card {
+  max-width: 350px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.portfolio-card__img {
+  width: 350px;
+  height: 200px;
+  background-color: #3f444a; }
+
+.portfolio-card__title {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.6;
   letter-spacing: 0.2px;
   text-align: center;
-  color: white; }
+  color: #5d6974;
+  margin-top: 27px;
+  margin-bottom: 6px; }
+
+.portfolio-card__text {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+  line-height: 1.4em;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #5d6974; }
