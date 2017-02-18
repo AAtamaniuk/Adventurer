@@ -573,23 +573,77 @@ ul {
   background-color: #3f444a; }
 
 .portfolio-card__title {
+  margin-top: 27px;
+  margin-bottom: 6px;
+  color: #5d6974;
   font-size: 20px;
   font-weight: 300;
   font-style: normal;
   font-stretch: condensed;
   line-height: 1.6;
-  letter-spacing: 0.2px;
   text-align: center;
-  color: #5d6974;
-  margin-top: 27px;
-  margin-bottom: 6px; }
+  letter-spacing: 0.2px; }
 
 .portfolio-card__text {
+  color: #5d6974;
   font-size: 12px;
   font-weight: 300;
   font-style: normal;
   font-stretch: condensed;
   line-height: 1.4em;
-  letter-spacing: 0.1px;
   text-align: center;
-  color: #5d6974; }
+  letter-spacing: 0.1px; }
+
+.subscribe {
+  height: 80px;
+  background-color: #312b2b; }
+
+.subscribe__text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.21;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #cccccc;
+  margin-top: 23px;
+  margin-bottom: 23px; }
+
+.subscribe-form {
+  width: 100%;
+  max-width: 360px;
+  height: 50px;
+  float: right;
+  font-size: 0; }
+
+.subscribe-form__input {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  margin-right: 0;
+  width: calc(100% - 62px);
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 16px; }
+  .subscribe-form__input:focus {
+    outline: none; }
+
+.subscribe-form__btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 62px;
+  height: 50px;
+  border: none;
+  background-color: #ec4646;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
+  .subscribe-form__btn:focus {
+    outline: none; }

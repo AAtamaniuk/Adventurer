@@ -1,0 +1,76 @@
+@import "../vars.scss";
+@import "../mixins.scss";
+
+.subscribe {
+  height: 80px;
+
+  background-color: $brown;
+}
+
+.subscribe__text {
+  display: inline-block;
+
+  margin-top: 23px;
+  margin-bottom: 23px;
+
+  color: hsl(0, 0%, 80%);
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.21;
+
+  text-align: left;
+  vertical-align: middle;
+  letter-spacing: 0.6px;
+}
+
+.subscribe-form {
+  float: right;
+
+  width: 100%;
+  max-width: 360px;
+  height: 50px;
+
+  font-size: 0;
+}
+
+.subscribe-form__input {
+  display: inline-block;
+
+  width: calc(100% - 62px);
+  height: 50px;
+  margin-right: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  font-size: 16px;
+
+  vertical-align: middle;
+
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.subscribe-form__btn {
+  display: inline-block;
+
+  width: 62px;
+  height: 50px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  vertical-align: middle;
+
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: $tomato;
+  &:focus {
+    outline: none;
+  }
+}
