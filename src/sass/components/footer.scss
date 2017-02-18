@@ -1,3 +1,43 @@
 @import "../vars.scss";
 @import "../mixins.scss";
 
+.main-footer {
+  background-color: $footer-color;
+}
+
+.footer-text {
+  color: hsl(0, 0%, 80%);
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+
+  text-align: left;
+  letter-spacing: normal;
+}
+
+.footer-social {
+  margin-right: -5px;
+
+  font-size: 0;
+}
+
+.footer-social__link {
+  display: inline-block;
+
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+
+  color: black;
+
+  transition: 0.3s;
+
+  background-color: white;
+  &:hover {
+    color: white;
+
+    background-color: $tomato;
+  }
+}
