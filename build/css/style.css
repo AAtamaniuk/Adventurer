@@ -109,6 +109,11 @@ ul {
   line-height: 81px;
   text-align: right; }
 
+.logo--footer {
+  display: inline-block;
+  line-height: 1em;
+  margin-bottom: 21px; }
+
 /*@mixin placeholder-color ($color) {
   ::-webkit-input-placeholder { !* Chrome/Opera/Safari *!
     color: $color;
@@ -124,33 +129,82 @@ ul {
   }
 }*/
 .main-footer {
-  background-color: #141414; }
+  background-color: #141414;
+  padding-top: 55px; }
 
 .footer-text {
+  color: #cccccc;
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.43;
-  letter-spacing: normal;
   text-align: left;
-  color: #cccccc; }
+  letter-spacing: normal;
+  padding-left: 17px;
+  margin-bottom: 41px; }
 
 .footer-social {
+  margin-right: -5px;
   font-size: 0;
-  margin-right: -5px; }
+  margin-bottom: 68px; }
 
 .footer-social__link {
   display: inline-block;
   width: 45px;
   height: 45px;
-  background-color: white;
   margin-right: 5px;
+  color: black;
   transition: 0.3s;
-  color: black; }
+  background-color: white; }
   .footer-social__link:hover {
-    background-color: #ec4646;
-    color: white; }
+    color: white;
+    background-color: #ec4646; }
+
+.footer-title {
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: white; }
+
+.features-list {
+  padding-top: 35px;
+  padding-left: 50px; }
+
+.feature__item {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #cccccc;
+  margin-bottom: 30px; }
+
+.tags {
+  font-size: 0;
+  margin-right: -5px;
+  margin-top: 30px; }
+
+.tags__tag {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+  letter-spacing: normal;
+  color: white;
+  margin-right: 5px;
+  background-color: #ec4646;
+  text-transform: uppercase;
+  padding: 10px 5px;
+  margin-bottom: 5px; }
 
 /*@mixin placeholder-color ($color) {
   ::-webkit-input-placeholder { !* Chrome/Opera/Safari *!
@@ -868,7 +922,7 @@ ul {
 .subscribe__text {
   display: inline-block;
   margin-top: 23px;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
   color: #cccccc;
   font-size: 16px;
   font-weight: 500;
